@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>Title</title>
+</head>
+<body>
+<!--Navigation Bar-->
+<nav class="absolute left-0 right-0 z-10 text-white font-comf">
+    <div class="w-9/12 mx-auto py-5 flex justify-between items-center">
+        <div>
+            <a href="#" class="text-lg">Tail listing</a>
+        </div>
+        <div>
+            <button class="py-2 px-4 rounded-md border border-amber-500 bg-transparent text-amber-500  hover:bg-amber-500 hover:text-white transition-all">
+                Add listing
+            </button>
+        </div>
+        <div class="space-x-4">
+            <button class="text-lg">Sign In</button>
+            <button class="text-lg">Sign Up</button>
+        </div>
+    </div>
+</nav>
+<!--Hero Banner-->
+<div class="relative h-screen">
+    <img class="h-full w-full object-cover" src="./assets/images/hero/hero_2.jpg" alt="" srcset="">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="h-full w-full absolute inset-0">
+        <div class="flex min-h-full w-full items-center justify-center ">
+            <div class="space-y-6">
+                <div class="text-white text-center">
+                    <p class="text-4xl capitalize font-bold mb-4 ">Discover places that people love</p>
+                    <p class="text-lg">we will help you find the best places in the world</p>
+                </div>
+                <div class="flex gap-5 ">
+                    <div>
+                        <input type="text" placeholder="Location"
+                               class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="I am looking for ..."
+                               class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none">
+                    </div>
+                    <div>
+                        <button class="rounded-md py-2.5 px-6 bg-amber-500 text-lg text-white hover:bg-amber-600 ">
+                            <span class="material-symbols-outlined align-middle">search</span>
+                            Search
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <ul class="flex justify-center gap-5 text-sm text-white">
+                        <li class="capitalize">
+                            <a href="#" class="hover:text-amber-500">
+                                <span class="material-symbols-outlined align-middle">restaurant</span>
+                                Restaurants
+                            </a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#" class="hover:text-amber-500">
+                                <span class="material-symbols-outlined align-middle">school</span>
+                                Schools
+                            </a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#" class="hover:text-amber-500">
+                                <span class="material-symbols-outlined align-middle">shopping_cart</span>
+                                Shops
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!--Main Content-->
+<div>
+<!--    popular places-->
+    <div class="bg-gray-50 py-32">
+        <div class="w-9/12 mx-auto">
+            <div class="text-center mb-12">
+                <p class="text-4xl font-bold text-gray-600 mb-3">Popular Places</p>
+                <p class="text-gray-600">Discover most searched places</p>
+
+            </div>
+            <div class="grid grid-cols-3 gap-6 mx-auto">
+                <!--            card one-->
+                <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./assets/images/card/card_img_1.jpg" alt="" class="w-full object-cover">
+                    </div>
+                    <div class=" px-6 py-4 space-y-2 relative">
+                        <div class="flex items-center text-sm ">
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star_half</span>
+                            <span class="ml-2 text-xs text-gray-600">294 reviews</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-600">
+                            Flower Garden
+                        </p>
+                        <p class="text-sm text-gray-600">
+                            <span class="material-symbols-outlined align-middle text-gray-600 ml-1">outdoor_garden</span>
+                            Some where in california
+                        </p>
+                        <div class="space-x-2">
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">Garden </span>
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">flower </span>
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">$$ </span>
+                        </div>
+                        <div class="absolute right-3 bottom-3">
+                           <span class="material-icons text-red-500">local_fire_department</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./assets/images/card/card_img_2.jpg" alt="" class="w-full object-cover">
+                    </div>
+                    <div class=" px-6 py-4 space-y-2">
+                        <div class="flex items-center text-sm ">
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">grade</span>
+                            <span class="material-symbols-outlined text-amber-500">grade</span>
+                            <span class="ml-2 text-xs text-gray-600">294 reviews</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-600 capitalize">
+                            statue
+                        </p>
+                        <p class="text-sm text-gray-600">
+                            <span class="material-symbols-outlined align-middle text-gray-600 ml-1">outdoor_garden</span>
+                            Budapest, Hongrie
+                        </p>
+
+                        <div class="space-x-2">
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">statue </span>
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">place </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img src="./assets/images/card/card_img_3.jpg" alt="" class="w-full object-cover">
+                    </div>
+                    <div class=" px-6 py-4 space-y-2">
+                        <div class="flex items-center text-sm ">
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star</span>
+                            <span class="material-symbols-outlined text-amber-500">star_half</span>
+                            <span class="ml-2 text-xs text-gray-600">1294 reviews</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-600">
+                            Flower Garden
+                        </p>
+                        <p class="text-sm text-gray-600">
+                            <span class="material-symbols-outlined align-middle text-gray-600 ml-1">outdoor_garden</span>
+                            Attica, Athens, Greece
+                        </p>
+
+                        <div class="space-x-2">
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">Garden </span>
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">flower </span>
+                            <span class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full">$$ </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-12 text-center">
+                <button class="rounded-md py-2.5 px-6 bg-white border border-gray-100 text-lg shadow hover:shadow-lg text-gray-600">
+                    🚀 Discover More
+                </button>
+            </div>
+        </div>
+    </div>
+<!--    discover by categories section-->
+
+</div>
+
+</body>
+</html>
