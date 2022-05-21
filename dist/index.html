@@ -1,354 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/output.css"/>
     <title>Title</title>
-  </head>
-  <body>
-    <!--Navigation Bar-->
-    <nav class="absolute left-0 right-0 z-10 text-white font-comf">
-      <div class="w-9/12 mx-auto py-5 flex justify-between items-center">
+</head>
+<body>
+<!--Navigation Bar-->
+<nav class="absolute left-0 right-0 z-10 text-white font-comf">
+    <div class="w-9/12 mx-auto py-5 flex justify-between items-center">
         <div>
-          <a href="#" class="text-lg">Tail listing</a>
+            <a href="#" class="text-lg">Tail listing</a>
         </div>
         <div>
-          <button
-            class="py-2 px-4 rounded-md border border-amber-500 bg-transparent text-amber-500 hover:bg-amber-500 hover:text-white transition-all"
-          >
-            Add listing
-          </button>
+            <button
+                    class="py-2 px-4 rounded-md border border-amber-500 bg-transparent text-amber-500 hover:bg-amber-500 hover:text-white transition-all"
+            >
+                Add listing
+            </button>
         </div>
         <div class="space-x-4">
-          <button class="text-lg">Sign In</button>
-          <button class="text-lg">Sign Up</button>
+            <button class="text-lg">Sign In</button>
+            <button class="text-lg">Sign Up</button>
         </div>
-      </div>
-    </nav>
-    <!--Hero Banner-->
-    <div class="relative h-screen">
-      <img
-        class="h-full w-full object-cover"
-        src="./assets/images/hero/hero_2.jpg"
-        alt=""
-        srcset=""
-      />
-      <div class="absolute inset-0 bg-black/50"></div>
-      <div class="h-full w-full absolute inset-0">
+    </div>
+</nav>
+<!--Hero Banner-->
+<div class="relative h-screen">
+    <img
+            class="h-full w-full object-cover"
+            src="./assets/images/hero/hero_2.jpg"
+            alt=""
+            srcset=""
+    />
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="h-full w-full absolute inset-0">
         <div class="flex min-h-full w-full items-center justify-center">
-          <div class="space-y-6">
-            <div class="text-white text-center">
-              <p class="text-4xl capitalize font-bold mb-4">
-                Discover places that people love
-              </p>
-              <p class="text-lg">
-                we will help you find the best places in the world
-              </p>
-            </div>
-            <div class="flex gap-5">
-              <div>
-                <input
-                  type="text"
-                  placeholder="Location"
-                  class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none"
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  placeholder="I am looking for ..."
-                  class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none"
-                />
-              </div>
-              <div>
-                <button
-                  class="rounded-md py-2.5 px-6 bg-amber-500 text-lg text-white hover:bg-amber-600"
-                >
+            <div class="space-y-6">
+                <div class="text-white text-center">
+                    <p class="text-4xl capitalize font-bold mb-4">
+                        Discover places that people love
+                    </p>
+                    <p class="text-lg">
+                        we will help you find the best places in the world
+                    </p>
+                </div>
+                <div class="flex gap-5">
+                    <div>
+                        <input
+                                type="text"
+                                placeholder="Location"
+                                class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none"
+                        />
+                    </div>
+                    <div>
+                        <input
+                                type="text"
+                                placeholder="I am looking for ..."
+                                class="rounded-md w-80 bg-white text-gray-600 py-3 px-4 focus:outline-none"
+                        />
+                    </div>
+                    <div>
+                        <button
+                                class="rounded-md py-2.5 px-6 bg-amber-500 text-lg text-white hover:bg-amber-600"
+                        >
                   <span class="material-symbols-outlined align-middle"
-                    >search</span
+                  >search</span
                   >
-                  Search
-                </button>
-              </div>
-            </div>
+                            Search
+                        </button>
+                    </div>
+                </div>
 
-            <div>
-              <ul class="flex justify-center gap-5 text-sm text-white">
-                <li class="capitalize">
-                  <a href="#" class="hover:text-amber-500">
+                <div>
+                    <ul class="flex justify-center gap-5 text-sm text-white">
+                        <li class="capitalize">
+                            <a href="#" class="hover:text-amber-500">
                     <span class="material-symbols-outlined align-middle"
-                      >restaurant</span
+                    >restaurant</span
                     >
-                    Restaurants
-                  </a>
-                </li>
-                <li class="capitalize">
-                  <a href="#" class="hover:text-amber-500">
+                                Restaurants
+                            </a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#" class="hover:text-amber-500">
                     <span class="material-symbols-outlined align-middle"
-                      >school</span
+                    >school</span
                     >
-                    Schools
-                  </a>
-                </li>
-                <li class="capitalize">
-                  <a href="#" class="hover:text-amber-500">
+                                Schools
+                            </a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#" class="hover:text-amber-500">
                     <span class="material-symbols-outlined align-middle"
-                      >shopping_cart</span
+                    >shopping_cart</span
                     >
-                    Shops
-                  </a>
-                </li>
-              </ul>
+                                Shops
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <!--Main Content-->
-    <div>
-      <!--    popular places-->
-      <div class="bg-gray-50 py-32">
+</div>
+<!--Main Content-->
+<div>
+    <!--    popular places-->
+    <div class="bg-gray-50 py-32">
         <div class="w-9/12 mx-auto">
-          <div class="text-center mb-12">
-            <p class="text-4xl font-bold text-gray-600 mb-3">Popular Places</p>
-            <p class="text-gray-600">Discover most searched places</p>
-          </div>
-          <div class="grid grid-cols-3 gap-6 mx-auto">
-            <!--            card one-->
-            <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
-              <div class="h-48 overflow-hidden">
-                <img
-                  src="./assets/images/card/card_img_1.jpg"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </div>
-              <div class="px-6 py-4 space-y-2 relative">
-                <div class="flex items-center text-sm">
+            <div class="text-center mb-12">
+                <p class="text-4xl font-bold text-gray-600 mb-3">Popular Places</p>
+                <p class="text-gray-600">Discover most searched places</p>
+            </div>
+            <div class="grid grid-cols-3 gap-6 mx-auto">
+                <!--            card one-->
+                <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img
+                                src="./assets/images/card/card_img_1.jpg"
+                                alt=""
+                                class="w-full object-cover"
+                        />
+                    </div>
+                    <div class="px-6 py-4 space-y-2 relative">
+                        <div class="flex items-center text-sm">
                   <span class="material-symbols-outlined text-amber-500"
-                    >star</span
+                  >star</span
                   >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star_half</span
-                  >
-                  <span class="ml-2 text-xs text-gray-600">294 reviews</span>
-                </div>
-                <p class="text-lg font-bold text-gray-600">Flower Garden</p>
-                <p class="text-sm text-gray-600">
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star_half</span
+                            >
+                            <span class="ml-2 text-xs text-gray-600">294 reviews</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-600">Flower Garden</p>
+                        <p class="text-sm text-gray-600">
                   <span
-                    class="material-symbols-outlined align-middle text-gray-600 ml-1"
-                    >outdoor_garden</span
+                          class="material-symbols-outlined align-middle text-gray-600 ml-1"
+                  >outdoor_garden</span
                   >
-                  Some where in california
-                </p>
-                <div class="space-x-2">
+                            Some where in california
+                        </p>
+                        <div class="space-x-2">
                   <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >Garden
+                          class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                  >Garden
                   </span>
-                  <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >flower
+                            <span
+                                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                            >flower
                   </span>
-                  <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >$$
+                            <span
+                                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                            >$$
                   </span>
-                </div>
-                <div class="absolute right-3 bottom-3">
+                        </div>
+                        <div class="absolute right-3 bottom-3">
                   <span class="material-icons text-red-500"
-                    >local_fire_department</span
+                  >local_fire_department</span
                   >
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
-              <div class="h-48 overflow-hidden">
-                <img
-                  src="./assets/images/card/card_img_2.jpg"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </div>
-              <div class="px-6 py-4 space-y-2">
-                <div class="flex items-center text-sm">
+                <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img
+                                src="./assets/images/card/card_img_2.jpg"
+                                alt=""
+                                class="w-full object-cover"
+                        />
+                    </div>
+                    <div class="px-6 py-4 space-y-2">
+                        <div class="flex items-center text-sm">
                   <span class="material-symbols-outlined text-amber-500"
-                    >star</span
+                  >star</span
                   >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >grade</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >grade</span
-                  >
-                  <span class="ml-2 text-xs text-gray-600">294 reviews</span>
-                </div>
-                <p class="text-lg font-bold text-gray-600 capitalize">statue</p>
-                <p class="text-sm text-gray-600">
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >grade</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >grade</span
+                            >
+                            <span class="ml-2 text-xs text-gray-600">294 reviews</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-600 capitalize">statue</p>
+                        <p class="text-sm text-gray-600">
                   <span
-                    class="material-symbols-outlined align-middle text-gray-600 ml-1"
-                    >outdoor_garden</span
+                          class="material-symbols-outlined align-middle text-gray-600 ml-1"
+                  >outdoor_garden</span
                   >
-                  Budapest, Hongrie
-                </p>
+                            Budapest, Hongrie
+                        </p>
 
-                <div class="space-x-2">
+                        <div class="space-x-2">
                   <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >statue
+                          class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                  >statue
                   </span>
-                  <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >place
+                            <span
+                                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                            >place
                   </span>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
-              <div class="h-48 overflow-hidden">
-                <img
-                  src="./assets/images/card/card_img_3.jpg"
-                  alt=""
-                  class="w-full object-cover"
-                />
-              </div>
-              <div class="px-6 py-4 space-y-2">
-                <div class="flex items-center text-sm">
+                <div class="bg-white rounded-md shadow max-w-xl overflow-hidden">
+                    <div class="h-48 overflow-hidden">
+                        <img
+                                src="./assets/images/card/card_img_3.jpg"
+                                alt=""
+                                class="w-full object-cover"
+                        />
+                    </div>
+                    <div class="px-6 py-4 space-y-2">
+                        <div class="flex items-center text-sm">
                   <span class="material-symbols-outlined text-amber-500"
-                    >star</span
+                  >star</span
                   >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star</span
-                  >
-                  <span class="material-symbols-outlined text-amber-500"
-                    >star_half</span
-                  >
-                  <span class="ml-2 text-xs text-gray-600">1294 reviews</span>
-                </div>
-                <p class="text-lg font-bold text-gray-600">Flower Garden</p>
-                <p class="text-sm text-gray-600">
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star</span
+                            >
+                            <span class="material-symbols-outlined text-amber-500"
+                            >star_half</span
+                            >
+                            <span class="ml-2 text-xs text-gray-600">1294 reviews</span>
+                        </div>
+                        <p class="text-lg font-bold text-gray-600">Flower Garden</p>
+                        <p class="text-sm text-gray-600">
                   <span
-                    class="material-symbols-outlined align-middle text-gray-600 ml-1"
-                    >outdoor_garden</span
+                          class="material-symbols-outlined align-middle text-gray-600 ml-1"
+                  >outdoor_garden</span
                   >
-                  Attica, Athens, Greece
-                </p>
+                            Attica, Athens, Greece
+                        </p>
 
-                <div class="space-x-2">
+                        <div class="space-x-2">
                   <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >Garden
+                          class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                  >Garden
                   </span>
-                  <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >flower
+                            <span
+                                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                            >flower
                   </span>
-                  <span
-                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
-                    >$$
+                            <span
+                                    class="text-xs px-2 py-0.5 border bg-amber-100 border-amber-200 text-amber-700 rounded-full"
+                            >$$
                   </span>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="mt-12 text-center">
-            <button
-              class="rounded-md py-2.5 px-6 bg-white border border-gray-100 text-lg shadow hover:shadow-lg text-gray-600"
-            >
-              🚀 Discover More
-            </button>
-          </div>
+            <div class="mt-12 text-center">
+                <button
+                        class="rounded-md py-2.5 px-6 bg-white border border-gray-100 text-lg shadow hover:shadow-lg text-gray-600"
+                >
+                    🚀 Discover More
+                </button>
+            </div>
         </div>
-      </div>
-      <!--    discover by categories section-->
-      <div class="bg-sky-50 py-32">
-        <div class="w-9/12 mx-auto">
-          <div class="text-center mb-12">
-            <div class="text-4xl font-bold text-gray-600 mb-3">
-              Discover by categories
-            </div>
-            <div class="text-gray-600">Discover places by categories</div>
-          </div>
-          <div class="gird grid-cols-2 gap-10 ">
-            <!-- card 1 -->
-            <div
-              class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg"
-            >
-              <a href="#">
-                <img
-                  src="./assets/icons/categories/coffee.png"
-                  alt=""
-                  class="w-20 h-20 mx-auto rounded-br-full"
-                />
-                <div class="space-y-2 text-center">
-                  <p
-                    class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
-                  >
-                    Coffee & Tea
-                  </p>
-                </div>
-              </a>
-            </div>
-            <!-- card 2 -->
-            <div
-              class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg"
-            >
-              <a href="#">
-                <img
-                  src="./assets/icons/categories/coffee.png"
-                  alt=""
-                  class="w-20 h-20 mx-auto rounded-br-full"
-                />
-                <div class="space-y-2 text-center">
-                  <p
-                    class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
-                  >
-                    Coffee & Tea
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
+    <!--    discover by categories section-->
+    <div class="bg-sky-50 py-32">
+        <div class="w-9/12 mx-auto border-amber-500">
+            <div class="text-center mb-12">
+                <div class="text-4xl font-bold text-gray-600 mb-3">
+                    Discover by categories
+                </div>
+                <div class="text-gray-600">Discover places by categories</div>
+            </div>
+            <div class="inline-grid grid-cols-4 gap-20 align-middle">
+                <!-- card 1 -->
+
+                    <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                        <img
+                                src="./assets/icons/categories/coffee.png"
+                                alt=""
+                                class="w-20 h-20 mx-auto mb-3 rounded-full"
+                        />
+                        <div class="space-y-2 text-center">
+                            <p
+                                    class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                            >
+                                Coffee & Tea
+                            </p>
+                        </div>
+                    </a>
+
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+                <!-- card  -->
+                <a href="#"  class="w-48 bg-white shadow p-4 hover:shadow-lg space-y-5 rounded-lg">
+                    <img
+                            src="./assets/icons/categories/coffee.png"
+                            alt=""
+                            class="w-20 h-20 mx-auto mb-3 rounded-full"
+                    />
+                    <div class="space-y-2 text-center">
+                        <p
+                                class="text-gray-700 font-semibold space-y-5 rounded-lg text-lg mb-3"
+                        >
+                            Coffee & Tea
+                        </p>
+                    </div>
+                </a>
+                <!--  card -->
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
